@@ -14,7 +14,6 @@ app.get('/:id', function (req, res) {
     (+req.params.id)*1000
   );
 
-  console.log(typeof date, Object.keys(date));
   var timeObj = {
     unix: null,
     natural: null
